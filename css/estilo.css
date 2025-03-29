@@ -1,0 +1,269 @@
+    /* movil */
+    @media (max-width: 640px){
+      body {
+        background-image : url(../static/imagenes/fondo.jpg);
+        font-family: "Consolas","Open Sans", "Arial", "Helvetica", sans-serif;
+        margin:0;
+        color: green;
+      }
+  
+      h1 {
+        color: green;
+        margin-top:0px;
+        margin-bottom:0px;
+        letter-spacing: -2px;
+        margin-left: 30px;
+        padding-left: 70px;
+        background: url(../static/imagenes/logoVerde.png) no-repeat left center;
+        font-size: 60px;   
+        width: 31%;
+      }
+
+      a{
+        color:green;
+       }
+  
+      ul{
+        margin-top:0px;
+        margin-left:70px;
+        color: green;
+      }
+  
+     
+      h2 {
+        clear: both;
+        text-align:center;
+        text-shadow: rgb(19, 17, 17) 3px 3px;
+        margin-bottom: 8px;
+        font-size: 20px;
+        letter-spacing: 5px;
+      }
+      .flotante{
+        float: left;
+      }
+      img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:10px;
+        margin-right:10px;
+        padding:4px;
+        background-color: green;
+        width: 15%;
+      }
+  
+      form {
+        background-color: white;
+        margin:10px;
+        padding:20px;
+        border: solid 4px black;
+        color:black;
+      }
+  
+      legend {
+        font-size: 2em;
+        text-shadow: #00000023 3px 3px;
+      }
+  
+      #enviar {
+        font-size: 20px;
+        width: 140px;
+        height: 50px;
+        color: white;
+        background-color: green;
+        border-radius: 11px;
+      }
+  
+      footer {
+        padding:30px;
+        margin-top:50px;
+        background-color: green;
+        border-top: solid 4px black;
+        color:black;
+      }
+  
+      .inicio {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: bold;
+        color:black;
+      }
+    }
+    /* tablet */
+@media (min-width: 641px) and (max-width: 1024px){
+  body {
+    background-image : url(../static/imagenes/fondo.jpg);
+    font-family: "Consolas","Open Sans", "Arial", "Helvetica", sans-serif;
+    margin:0;
+    color: yellow;
+  }
+
+  h1 {
+    color: yellow;
+    margin-top:0px;
+    margin-bottom:0px;
+    letter-spacing: -2px;
+    margin-left: 30px;
+    padding-left: 70px;
+    background: url(../static/imagenes/logoAmarillo.png) no-repeat left center;
+    font-size: 60px;   
+    width: 31%;
+  }
+
+  ul{
+    margin-top:0px;
+    margin-left:70px;
+    color: yellow;
+  }
+
+  a{
+    color:yellow;
+  }
+
+  h2 {
+    clear: both;
+    text-align:center;
+    text-shadow: rgb(19, 17, 17) 3px 3px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+  .flotante{
+    float: left;
+  }
+  img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:4px;
+    background-color: yellow;
+    width: 17%;
+  }
+
+  form {
+    background-color: white;
+    margin:10px;
+    padding:20px;
+    border: solid 4px black;
+    color:black;
+  }
+
+  legend {
+    font-size: 2em;
+    text-shadow: #00000023 3px 3px;
+  }
+
+  #enviar {
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color: yellow;
+    border-radius: 11px;
+  }
+
+  footer {
+    padding:30px;
+    margin-top:50px;
+    background-color: yellow;
+    border-top: solid 4px black;
+    color:black;
+  }
+
+  .inicio {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+  }
+}
+/* pc */
+@media (min-width: 992px) {
+  body {
+    background-image : url(../static/imagenes/fondo.jpg);
+    font-family: "Consolas","Open Sans", "Arial", "Helvetica", sans-serif;
+    margin:0;
+    color: white;
+  }
+
+  h1 {
+    color: white;
+    margin-top:0px;
+    margin-bottom:0px;
+    letter-spacing: -2px;
+    margin-left: 30px;
+    padding-left: 70px;
+    background: url(../static/imagenes/logoBlanco.png) no-repeat left center;
+    font-size: 60px;   
+    width: 31%;
+  }
+
+  ul{
+    margin-top:0px;
+    margin-left:70px;
+    color: white;
+  }
+
+  a{
+    color:white;
+  }
+
+  h2 {
+    clear: both;
+    text-align:center;
+    text-shadow: rgb(19, 17, 17) 3px 3px;
+    margin-bottom: 8px;
+    font-size: 50px;
+    letter-spacing: 16px;
+  }
+  .flotante{
+    float: left;
+  }
+  img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+    background-color: white;
+    width: 19%;
+  }
+
+  form {
+    background-color: white;
+    margin:10px;
+    padding:20px;
+    border: solid 4px black;
+    color:black;
+  }
+
+  legend {
+    font-size: 2em;
+    text-shadow: #00000023 3px 3px;
+  }
+
+  #enviar {
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color: white;
+    border-radius: 11px;
+  }
+
+  footer {
+    padding:30px;
+    margin-top:50px;
+    background-color: white;
+    border-top: solid 4px black;
+    color:black;
+  }
+
+  .inicio {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+  }
+}
+
